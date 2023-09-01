@@ -34,7 +34,7 @@ ROOT
 
 * assumed that a single python environment covers all the projects
   * developed and tested with Python 3.8.15 and Gradio 3.30.0
-  * see [requirements.txt](https://github.com/beberry-hidden-singer/integrated_webui/requirements.txt)
+  * see [requirements.txt](https://github.com/beberry-hidden-singer/integrated_webui/blob/main/requirements.txt)
 
 ## Launch webUI
 1. from `ROOT`:
@@ -47,7 +47,7 @@ ROOT
     ```
 
 ## LICENSE
-see [here](https://github.com/beberry-hidden-singer/integrated_webui/LICENSE)
+see [here](https://github.com/beberry-hidden-singer/integrated_webui/blob/main/LICENSE)
 
 ## DISCLAIMER
 개인편의를 위해 개발된 프로그램이며 사용함에 있어 따르는 어떠한 문제에 대해서도 책임을 지지 않습니다.
