@@ -2,19 +2,24 @@
 by karljeon44
 
 ## Setup
+```shell
+$ git clone https://github.com/beberry-hidden-singer/integrated_webui.git integrated-webui
+```
+### Expected project folder structure
 ```
 ROOT
 ├───integrated-webui
 │   ├───app.py
 │   ├───DATA
-│   │    ├───target
-│   │    └───result
+│   ├───tmp
+│   ├───summary
 │   └───...
 ├───preliminary_preprocessing
 │   ├───preprocess.py
 │   └───...
 ├───ervc-v2
 │   ├───infer_web.py
+│   ├───logs
 │   └───...
 ├───esovits
 │   └───...
@@ -22,6 +27,7 @@ ROOT
 │   ├───preprocess.py
 │   ├───train_diff.py
 │   ├───infer.py
+│   ├───exp
 │   └───...
 └───pretrain
     ├───contentvec
@@ -29,11 +35,10 @@ ROOT
     ├───hubert
     ├───rmvpe
     └───...
-
 ```
 
 * assumed that a single python environment covers all the projects
-  * developed and tested with Python 3.8.15 and Gradio 3.30.0
+  * developed and tested with Python 3.8.15 and Gradio 3.30.0 on Debian and macOS
   * see [requirements.txt](https://github.com/beberry-hidden-singer/integrated_webui/blob/main/requirements.txt)
 
 ## Launch webUI
